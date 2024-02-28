@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>BAU QA Env Builds</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #1e76b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<h1>BAU QA Env Builds </h1>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Env Name</th>
+                <th><a href="https://cisrvcn.netcracker.com/job/Telus_Instance_cache/">FIFA(TOMS) Snapshot</a></th>
+                <th><a href="https://cloud-deployer.netcracker.com/job/TELUS-SOW379/job/e2e-pipelines/job/catalog-operations-pipelines/job/pim-catalog-restore/">PIM catalog </a></th>
+                <th><a href="https://cloud-deployer.netcracker.com/job/TELUS-SOW379/job/e2e-pipelines/job/solution-descriptor-update-pipeline/">Merlin SD</a></th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>bau-qa-1(Telus1030)</th>
+                <td>!PRODLIKE!2023f10.0.2.3!_2023-11-03_PIM_Master_Revision_1174(precious)</td> <!--FIFA(TOMS) Snapshot-->
+                <td>telus_prod_multi_sql.cloud-bss-pr01-20231103.144016-published.zip</td> <!--PIM Catalog-->
+                <td>TELUS-SOLUTION-DESCRIPTOR:release-2023.12-project-20231019.052635-32-RELEASE , TELUS-SOLUTION-DESCRIPTOR:release-2023.13-product-20231025.074213-6-RELEASE, TELUS-SOLUTION-DESCRIPTOR:release-2023.13-project-20231103.062609-15-RELEASE</td> <!--Merlin SD-->
+                <td>BAU NOV 13</td> <!--Comments-->
+            </tr>
+            <tr>
+                <th>bau-qa-2(Telus1032)</th>
+                <td>Row 2, Cell 2</td> <!--FIFA(TOMS) Snapshot-->
+                <td>Row 2, Cell 3</td> <!--PIM Catalog-->
+                <td>Row 2, Cell 4</td> <!--Merlin SD-->
+                <td>Row 2, Cell 5</td> <!--Comments-->
+            </tr>
+            <tr>
+                <th>bau-qa-3(Telus1053)</th>
+                <td>Row 3, Cell 2</td> <!--FIFA(TOMS) Snapshot-->
+                <td>Row 3, Cell 3</td> <!--PIM Catalog-->
+                <td>Row 3, Cell 4</td> <!--Merlin SD-->
+                <td>Row 3, Cell 5</td> <!--Comments-->
+            </tr>
+            <tr>
+                <th>bau-qa-4(Telus1034)</th>
+                <td>!PRODLIKE!2023f10.0.2.3!_2023-11-06_PIM_Master_Revision_1181(precious)</td> <!--FIFA(TOMS) Snapshot-->
+                <td>telus_prod_multi_sql.cloud-bss-pr01-20231106.061906-published.zip</td> <!--PIM Catalog-->
+                <td>TELUS-SOLUTION-DESCRIPTOR:release-2023.12-project-20231031.072910-33-RELEASE, TELUS-SOLUTION-DESCRIPTOR:release-2023.13-project-20231103.062609-15-RELEASE</td> <!--Merlin SD-->
+                <td><p>BAU NOV 16</p>
+                    <a href="https://bass.netcracker.com/display/TelusProj/%5BMerlin.23.13%5D+01-Nov+patches+-+Merlin+RELEASE-2023-13+%28Full+Scope%29+Fix3">23.13 branches and DF are present in this link</a>
+				 </td> <!--Comments-->
+            </tr>
+            <tr>
+                <th>bau-qa-5(Telus1036)</th>
+                <td>Row 5, Cell 2</td> <!--FIFA(TOMS) Snapshot-->
+                <td>Row 5, Cell 3</td> <!--PIM Catalog-->
+                <td>Row 5, Cell 4</td> <!--Merlin SD-->
+                <td>Row 5, Cell 5</td> <!--Comments-->
+            </tr>
+        </tbody>
+    </table>
+	
+<h2>BAU QA Env Important Links </h2>	
+<li><a href="https://bass.netcracker.com/display/TelusProj/BAU+Team+Servers">BAU Env Bass Page</a></li>
+<li><a href="https://cisrvcn.netcracker.com/job/Telus_Instance_cache/">FIFA(TOMS) Snapshot Jenkins Job</a></li>
+<li><a href="http://telusart.netcracker.com/netcracker.cloud.bss.mvn/com/netcracker/cloud/bss/pim-configuration-backup/telus_prod_multi_sql.cloud-bss-pr01/">Latest PIM Catalog Shared Path</a></li>
+<li><a href="https://cloud-deployer.netcracker.com/job/TELUS-SOW379/job/e2e-pipelines/job/catalog-operations-pipelines/job/pim-catalog-restore/">PIM catalog Jenkins Job</a></li>
+<li><a href="https://bass.netcracker.com/pages/viewpage.action?pageId=1738223163">Bass Page for SD Reference</a></li>
+<li><a href="https://cloud-deployer.netcracker.com/job/TELUS-SOW379/job/e2e-pipelines/job/solution-descriptor-update-pipeline/">Merlin SD Jenkins Job</a></li>
+
+	
+</body>
+<script>
+    // Add click event to table rows to highlight them on hover
+    const rows = document.querySelectorAll("tr");
+    rows.forEach(row => {
+        row.addEventListener("mouseenter", () => {
+            row.style.backgroundColor = "#ddd";
+        });
+        row.addEventListener("mouseleave", () => {
+            if (row.rowIndex % 2 === 0) {
+                row.style.backgroundColor = "#f2f2f2";
+            } else {
+                row.style.backgroundColor = "white";
+            }
+        });
+    });
+</script>
+
+</html>
